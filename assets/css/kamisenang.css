@@ -1,0 +1,31 @@
+.kami-senang-container {
+  background: url("../image/we-love-from-you.png") no-repeat center center;
+  height: 300px;
+  display: flex;
+}
+
+.kami-senang-inner {
+  /* padding-top: 80px; */
+  display: inherit;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.kami-senang-inner > .title-text {
+  font-family: 'Poppins-Bold';
+  font-size: 30px;
+  margin-bottom: 70px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .kami-senang-inner {
+    padding-top: 50px;
+  }
+  .kami-senang-inner > .title-text {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+
+}

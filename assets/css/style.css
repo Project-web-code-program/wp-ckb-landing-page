@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins-Regular', sans-serif;
+}
+
+.ckb-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.button-ckb-1 {
+  text-decoration: none;
+  background: #0B4B75;
+  color: #e5e5e5;
+  width: auto;
+  padding: 10px 15px;
+  font-size: 14px;
+  line-height: 14px;
+  border-radius: 5px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.strip-ckb {
+  width: 48px;
+  height: 2px;
+  background-color: #0B4B75;
+  margin-bottom: 15px;
+}
+
+.language-container {
+  display: flex;
+}
+
+.toggle-lang {
+  font-size: 10px;
+  cursor: pointer;
+  padding: 0px 5px;
+}
+
+.language-container .active {
+  border-radius: 8px;
+  background: rgba(0,0,0,0.2);
+  height: 15px;
+}
+
+/* Layout Responsive */
+@media screen and (min-width: 320px) {
+  .ckb-container {
+    max-width: 350px;
+  }
+}
+
+@media screen and (width: 320px) { 
+  .ckb-container {
+    max-width: 300px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .ckb-container {
+    max-width: 540px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button-ckb-1 { 
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ckb-container {
+    max-width: 720px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .ckb-container {
+    max-width: 960px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .ckb-container {
+    max-width: 1140px;
+  }
+}
+
+

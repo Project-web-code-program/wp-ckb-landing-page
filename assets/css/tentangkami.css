@@ -1,0 +1,42 @@
+.tentangkami-container {
+  margin-top: 80px;
+}
+
+.tentangkami-inner {
+  display: flex;
+  padding-top: 30px;
+}
+
+.left-tentangkami, .right-tentangkami { width: 50%; }
+
+.right-tentangkami > img { 
+  width: 100%;
+  height: auto;
+}
+
+.title-tentangkami {
+  font-family: 'Poppins-Bold';
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.desc-tentangkami {
+  font-family: 'Poppins-Light';
+  font-size: 16px;
+  margin-bottom: 25px;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .tentangkami-inner {
+    flex-direction: column-reverse;
+  }
+
+  .left-tentangkami, .right-tentangkami { width: 100%; }
+
+  .right-tentangkami { margin-bottom: 25px; }
+
+  .right-tentangkami img {
+    margin-top: 25px;
+  }
+}
