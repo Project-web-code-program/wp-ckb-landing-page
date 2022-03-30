@@ -47,13 +47,13 @@ $(document).ready(function () {
         .children('.top-nav')
         .children('.top-nav-inner')
         .children('.social-media-container')
-        .append(`<img src="http://citrakhaila.com/wp-content/uploads/2022/03/icon-facebook-dark.svg" alt="">
-        <img src="http://citrakhaila.com/wp-content/uploads/2022/03/icon-instagram-dark.svg" alt="">
-        <img src="http://citrakhaila.com/wp-content/uploads/2022/03/icon-linkedin-dark.svg" alt="">`);
+        .append(`<img src="https://citrakhaila.com/wp-content/uploads/2022/03/icon-facebook-dark.svg" alt="">
+        <img src="https://citrakhaila.com/wp-content/uploads/2022/03/icon-instagram-dark.svg" alt="">
+        <img src="https://citrakhaila.com/wp-content/uploads/2022/03/icon-linkedin-dark.svg" alt="">`);
 
       $('.nav-section-mobile > .burger-icon').attr(
         'src',
-        'http://citrakhaila.com/wp-content/uploads/2022/03/burger-icon-right-dark.png'
+        'https://citrakhaila.com/wp-content/uploads/2022/03/burger-icon-right-dark.png'
       );
 
       if (getDetailBlogContainer) {
@@ -75,13 +75,13 @@ $(document).ready(function () {
         .children('.top-nav')
         .children('.top-nav-inner')
         .children('.social-media-container')
-        .append(`<img src="http://citrakhaila.com/wp-content/uploads/2022/03/icon-facebook.svg" alt="">
-      <img src="http://citrakhaila.com/wp-content/uploads/2022/03/icon-instagram.svg" alt="">
-      <img src="http://citrakhaila.com/wp-content/uploads/2022/03/icon-linkedin.svg" alt="">`);
+        .append(`<img src="https://citrakhaila.com/wp-content/uploads/2022/03/icon-facebook.svg" alt="">
+      <img src="https://citrakhaila.com/wp-content/uploads/2022/03/icon-instagram.svg" alt="">
+      <img src="https://citrakhaila.com/wp-content/uploads/2022/03/icon-linkedin.svg" alt="">`);
 
       $('.nav-section-mobile > .burger-icon').attr(
         'src',
-        'http://citrakhaila.com/wp-content/uploads/2022/03/burger-icon-right-light.png'
+        'https://citrakhaila.com/wp-content/uploads/2022/03/burger-icon-right-light.png'
       );
 
       if (getDetailBlogContainer) {
